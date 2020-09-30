@@ -6,7 +6,7 @@ int main()
     FILE *fptr;
     if ((fptr = fopen("program.txt", "r")) == NULL)
     {
-        print("Error! opening file");
+        printf("Error! opening file");
         exit(1);
     }
    
